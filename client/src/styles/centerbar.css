@@ -10,3 +10,104 @@
     color: white;
     font-weight: bold;
 }
+
+.cookAFranky .home {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 1rem 0 0 1rem;
+}
+
+.tweetSection .profile-pic {
+    margin: 1rem;
+}
+
+.tweetSection {
+    display: flex;
+}
+
+.tweetarea {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 98%;
+    height: 5rem;
+    resize: none;
+}
+
+.makeTweetContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.makeTweetContainer .tweetBtn {
+    width: 5rem;
+    height: 2rem;
+    background-color: #1da1f2;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+.makeTweetContainer .tweetBtn:hover {
+    background-color: #0d8fe0;
+    cursor: pointer;
+}
+
+.frankies {
+    padding: 1rem;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    gap: 1rem;
+    /* background-color: red; */
+    border: #222121 solid 1px;
+    color: white;
+}
+
+.frankies .frankySection .frankyMaker {
+    display: flex;
+    gap: 1rem;
+}
+
+.frankerProfilePic {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.frankyUserTag::before {
+    content: "@";
+}
+
+.frankySection .franky {
+    margin-top: 0.5rem;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+}
+
+.frankyUserTag,
+.frankyTime {
+    opacity: 0.5;
+}
+
+.frankyUserName {
+    font-weight: bold;
+}
+
+.frankyMaker .frankyTime::before {
+    content: "• ";
+}
+
+.frankyContainer {
+    padding-top: 3rem;
+}

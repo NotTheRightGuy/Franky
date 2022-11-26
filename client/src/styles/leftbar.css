@@ -48,13 +48,6 @@
     gap: 1rem;
 }
 
-.profile .profile-image .profile-image-main {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 .profile .user-details .user-name {
     font-weight: bold;
 }
