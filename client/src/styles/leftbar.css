@@ -1,0 +1,68 @@
+.leftBar {
+    height: 100vh;
+    background-color: black;
+    padding-left: 30%;
+}
+
+.buttonSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.buttonSection div {
+    border-radius: 2rem;
+    font-family: "Lato", sans-serif;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.buttonSection div:hover {
+    cursor: pointer;
+    background-color: rgba(29, 28, 28, 0.7);
+}
+
+.buttonSection div.tweet {
+    font-weight: bold;
+    padding: 0.7rem;
+    text-align: center;
+    width: 13rem;
+    background-color: rgb(48, 176, 255);
+}
+
+.buttonSection div.tweet:hover {
+    background-color: rgb(29, 161, 242);
+}
+
+.profile {
+    margin-top: 35%;
+    font-family: "Lato", sans-serif;
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+
+.profile .profile-image .profile-image-main {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile .user-details .user-name {
+    font-weight: bold;
+}
+
+.profile .user-details .user-tag::before {
+    content: "@";
+}
+
+.profile .user-details .user-tag {
+    color: rgb(101, 119, 134);
+}

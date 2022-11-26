@@ -1,0 +1,35 @@
+.rightBar {
+    height: 100vh;
+    background-color: black;
+    padding-left: 2rem;
+    padding-top: 0.7rem;
+}
+
+.searchBar input {
+    height: 2rem;
+    width: 18rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    padding-left: 2rem;
+    background-color: rgba(70, 70, 70, 0.5);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.whatsHappening {
+    margin-top: 1rem;
+    border-radius: 2rem;
+    height: 70%;
+    width: 90%;
+    background-color: rgba(70, 70, 70, 0.5);
+}
+
+.whoToFollow {
+    margin-top: 1rem;
+    border-radius: 2rem;
+    height: 10%;
+    width: 90%;
+    background-color: rgba(70, 70, 70, 0.5);
+}
